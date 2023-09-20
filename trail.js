@@ -55,5 +55,7 @@ const food= require('./food.json');
     return list.sort((a,b)=> a.cab - b.cab).map(item=>item.foodname); 
  }
 
-  
+ function sortCabAsc2(list){
+    return list.sort((a,b)=> a.cab - b.cab).map(item=>item.foodname); 
+ }
 
